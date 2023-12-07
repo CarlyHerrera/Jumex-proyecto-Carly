@@ -1,0 +1,219 @@
+* {
+margin:0px;
+padding:0px;
+}
+
+#header {
+margin:auto;
+width:500px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+list-style:none;
+}
+
+.nav > li {
+float:left;
+}
+
+.nav li a { /*menu*/
+background-color:#FFFFFF;
+color:#828282;
+text-decoration:none;
+padding:20px 22px;
+display:block;
+}
+
+.nav li a:hover {
+background-color:#434343;
+}
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li {
+position:relative;
+}
+
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+
+body {
+background-color: #FFFFFF;
+}
+#Menu {
+position: absolute;
+        width: 1914px;
+        height: 67px;
+        z-index: 2;
+        left: 661px; /* Centrar horizontalmente */
+        margin-left: -660px; /* Mitad del ancho negativo */
+        top: 0px;
+        background-color: #FFFFFF;
+    }
+        .Estilo2 {color: #9B9B93}
+        #Layer2 {
+position:absolute;
+width:200px;
+height:46px;
+z-index:4;
+left: 96px;
+top: 144px;
+}
+        #Layer3 {
+position:absolute;
+width:200px;
+height:24px;
+z-index:5;
+left: 94px;
+top: 212px;
+background-color: #5C3B23;
+}
+.Estilo9 {font-size: 18px}
+.Estilo10 {font-family: sans-serif}
+#Icons {
+position:absolute;
+width:88px;
+height:115px;
+z-index:3;
+left: 133px;
+top: 245px;
+}
+#Layer1 {
+position:absolute;
+width:200px;
+height:55px;
+z-index:4;
+left: 132px;
+top: 183px;
+}
+.Titulo {
+color: #F0F0F0;
+font-size: 36px;
+font-weight: bold;
+font-family: sans-serif;
+}
+#Wasa {
+position:absolute;
+width:200px;
+height:33px;
+z-index:5;
+left: 244px;
+top: 273px;
+}
+.Contactos {
+font-family: sans-serif;
+font-weight: bold;
+font-size: 24px;
+color: #F0F0F0;
+}
+#Telefono {
+position:absolute;
+width:265px;
+height:60px;
+z-index:6;
+left: 243px;
+top: 323px;
+}
+#Correo {
+position:absolute;
+width:200px;
+height:42px;
+z-index:7;
+left: 243px;
+top: 393px;
+}
+#RedesSociales {
+position:absolute;
+width:556px;
+height:46px;
+z-index:8;
+left: 1015px;
+top: 118px;
+}
+#Facebook {
+position:absolute;
+width:90px;
+height:86px;
+z-index:9;
+left: 1018px;
+top: 224px;
+}
+#Twitter {
+position:absolute;
+width:88px;
+height:83px;
+z-index:10;
+left: 1170px;
+top: 224px;
+}
+#Instagram {
+position:absolute;
+width:90px;
+height:72px;
+z-index:11;
+left: 1318px;
+top: 225px;
+}
+#YouTube {
+position:absolute;
+width:84px;
+height:87px;
+z-index:12;
+left: 1466px;
+top: 224px;
+}
+#Layer4 {
+position:absolute;
+width:490px;
+height:269px;
+z-index:13;
+left: 133px;
+top: 546px;
+}
+.Formulario {
+color: #F0F0F0;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 24px;
+}
+#Layer5 {
+position:absolute;
+width:347px;
+height:91px;
+z-index:14;
+left: 142px;
+top: 631px;
+}
+.Estilo12 {
+font-size: 30px;
+font-family: sans-serif;
+color: #F0F0F0;
+}
+#Layer6 {
+position:absolute;
+width:200px;
+height:115px;
+z-index:15;
+left: 735px;
+top: 951px;
+}
+#Layer7 {
+	position:absolute;
+	width:200px;
+	height:65px;
+	z-index:16;
+	left: 1646px;
+	top: 1px;
+}

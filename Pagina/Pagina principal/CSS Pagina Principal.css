@@ -1,0 +1,237 @@
+* {
+margin:0px;
+padding:0px;
+}
+
+#header {
+margin:auto;
+width:500px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+list-style:none;
+}
+
+.nav > li {
+float:left;
+}
+
+.nav li a { /*menu*/
+background-color:#FFFFFF;
+color:#828282;
+text-decoration:none;
+padding:20px 22px;
+display:block;
+}
+
+.nav li a:hover {
+background-color:#434343;
+}
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+
+
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li {
+position:relative;
+}
+
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+
+body {
+background-color: #FFFFFF;
+}
+#Layer1 {
+position: absolute;
+        width: 1906px;
+        height: 68px;
+        z-index: 2;
+        left: 660px; /* Centrar horizontalmente */
+        margin-left: -660px; /* Mitad del ancho negativo */
+        top: 0;
+        background-color: #FFFFFF;
+    }
+        .Estilo2 {color: #9B9B93}
+        #Layer2 {
+position:absolute;
+width:200px;
+height:46px;
+z-index:4;
+left: 96px;
+top: 144px;
+}
+.Titulos {
+font-size: 35px;
+color: #37352F;
+font-family: sans-serif;
+font-weight: bold;
+}
+        .MenuFuente {font-size: 18px; font-family: sans-serif; }
+        #Layer3 {
+position:absolute;
+width:200px;
+height:24px;
+z-index:5;
+left: 95px;
+top: 237px;
+background-color: #FBECDD;
+}
+        #Jumex {
+position:absolute;
+width:354px;
+height:115px;
+z-index:6;
+left: 749px;
+top: 1131px;
+}
+#JumexJugo {
+      width: 353px; /* Ancho inicial de la imagen */
+      transition: transform 0.5s ease; /* Transición suave en la propiedad 'transform' */
+    }
+
+    /* Cambia el tamaño de la imagen al hacer hover */
+    #JumexJugo:hover {
+      transform: scale(1.2); /* Ajusta el valor según el nivel de zoom deseado */
+    }
+#UnicoyFresco {
+position:absolute;
+width:351px;
+height:115px;
+z-index:7;
+left: 321px;
+top: 1645px;
+}
+#Jumex0xd {
+position:absolute;
+width:358px;
+height:115px;
+z-index:8;
+left: 1176px;
+top: 1574px;
+}
+#Bida {
+position:absolute;
+width:352px;
+height:115px;
+z-index:9;
+left: 321px;
+top: 2074px;
+}
+#Ami {
+position:absolute;
+width:349px;
+height:115px;
+z-index:10;
+left: 1171px;
+top: 2074px;
+}
+#Layer4 {
+position:absolute;
+width:249px;
+height:63px;
+z-index:11;
+left: 1647px;
+top: 2px;
+}
+#Layer5 {
+position:absolute;
+width:293px;
+height:115px;
+z-index:11;
+left: 781px;
+top: 1038px;
+}
+#Layer6 {
+position:absolute;
+width:200px;
+height:115px;
+z-index:12;
+left: 1168px;
+top: 1860px;
+}
+#Layer7 {
+position:absolute;
+width:200px;
+height:115px;
+z-index:12;
+left: 509px;
+top: 143px;
+}
+#Layer8 {
+position:absolute;
+width:200px;
+height:115px;
+z-index:12;
+left: 820px;
+top: 2640px;
+}
+.Estilo8 {
+font-family: sans-serif;
+font-size: 28px;
+font-weight: bold;
+}
+#BanerDown {
+position:absolute;
+width:200px;
+height:115px;
+z-index:1;
+left: 0px;
+top: 2752px;
+}
+#Comentarios {
+position:absolute;
+width:465px;
+height:115px;
+z-index:2;
+left: 623px;
+top: 139px;
+}
+.Info {
+font-family: sans-serif;
+font-size: 28px;
+}
+.NosexdperoBig {
+font-family: sans-serif;
+font-weight: bold;
+font-size: 36px;
+color:#F0F0F0;
+}
+.Link {
+font-family: sans-serif;
+color: #21B44B;
+font-weight: bold;
+font-size: 30px;
+}
+#Contacto {
+position:absolute;
+width:453px;
+height:115px;
+z-index:1;
+left: 590px;
+top: 98px;
+}
+.Links-Down {
+color: #F0F0F0;
+font-size: 18px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#Menu-downs {
+position:absolute;
+width:200px;
+height:115px;
+z-index:1;
+left: 815px;
+top: 35px;
+}
